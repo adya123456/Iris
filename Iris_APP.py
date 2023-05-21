@@ -38,7 +38,7 @@ def prediction(sepal_length, sepal_width, petal_length, petal_width):
   else:
     return "Iris-versicolor"
 
- st.title("Iris Flower Species Prediction App")  
+st.title("Iris Flower Species Prediction App")  
 
 # Add 4 sliders and store the value returned by them in 4 separate variables.
 s_len = st.slider("Sepal Length", 0.0, 10.0)
